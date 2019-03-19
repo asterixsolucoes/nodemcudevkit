@@ -1,4 +1,5 @@
 #include <ESP8266WiFi.h>
+//@author jeferson@asterixsolucoes.com.br
 const char* ssid = "homework"; // Nome da Rede
 const char* password = "DidiroMinhaSenhaSuperSecreta"; //Password da rede 
 int ledPin = 13; // GPIO2 do ESP8266 e D7 do NodeMCU 
@@ -64,7 +65,7 @@ client.println("<!DOCTYPE HTML>");
 client.println("<html>");
 client.println("<head>");
 client.println("<meta charset='utf-8'>");
-client.println("<title>Asterix Soluções</title>");
+client.println("<title>Asterix Soluções jeferson@asterixsolucoes.com.br</title>");
 client.println("<style>");
 //Configuracao CSS do botao on
 client.println(".ON {");
